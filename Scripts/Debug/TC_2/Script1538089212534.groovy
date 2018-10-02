@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Object Repository/Debug/Step_2/Page_Home page/a_Crea
 WebUI.click(findTestObject('Object Repository/Debug/Step_2/Page_New Exclusion Request Form/li_Step 2'))
 */
 WebUI.setText(findTestObject('Object Repository/Debug/Step_2/Page_New Exclusion Request Form/input_Requestor Point of Conta'), 
-    'test1')
+    findTestData('BIS_Test_Data_ER').getValue(1, 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_2/Page_New Exclusion Request Form/input_Point-of-Contact Organiz'), 
     't2')
