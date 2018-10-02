@@ -28,25 +28,25 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Debug/Step_1/Page_Ne
     findTestData('BIS_Test_Data_ER').getValue('Class', 1), true)
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Identify the class of Al'), 
-    findTestData('BIS_Test_Data_ER').getValue(1, 1))
+    findTestData('BIS_Test_Data_ER').getValue('HTSUS_Code', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Full Organization Legal'), 
-    findTestData('BIS_Test_Data_ER').getValue(1, 1))
+    findTestData('BIS_Test_Data_ER').getValue('Req_OrgName', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Street Address_BIS232Req'), 
-    findTestData('BIS_Test_Data_ER').getValue(1, 1))
+    findTestData('BIS_Test_Data_ER').getValue('Req_Street ', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_City_BIS232Request.JSOND'), 
-    findTestData('BIS_Test_Data_ER').getValue(1, 1))
+    findTestData('BIS_Test_Data_ER').getValue('Req_City', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_State_BIS232Request.JSON'), 
-    'test')
+    findTestData('BIS_Test_Data_ER').getValue('Req_City', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_ZIP Code_BIS232Request.J'), 
-    '22193')
+   findTestData('BIS_Test_Data_ER').getValue('Req_City', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Headquarters Country_BIS'), 
-    'Hdc')
+   findTestData('BIS_Test_Data_ER').getValue('Req_City', 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Point of Contact Name_BI'), 
     'ehossain')
