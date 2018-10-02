@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>BIS Test Data</name>
+   <name>BIS_Test_Data_ER</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>31f99186-bfd0-4330-8c9d-2df1f67ca5f8</dataFileGUID>
-   <dataSourceUrl>../Test_data/Test_data.xlsx</dataSourceUrl>
+   <dataFileGUID>1e5f0db4-2a48-40cb-b38a-1f1bd9754b82</dataFileGUID>
+   <dataSourceUrl>C:\Users\Carrington Metuge\Katalon Studio\Test_Data\Step by Step ER Form Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>Step 1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -39,11 +39,11 @@ WebUI.setText(findTestObject('Object Repository/Debug/Step_4/Page_New Exclusion 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_4/Page_New Exclusion Request Form/textarea_Comments_BIS232Reques_6'), 
     'ds')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/RootC_Analysis/Page_New Exclusion Request Form/select_Please SelectAfghanista'),
+/*WebUI.selectOptionByValue(findTestObject('Object Repository/RootC_Analysis/Page_New Exclusion Request Form/select_Please SelectAfghanista'),
 	'Argentina', true)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/RootC_Analysis/Page_New Exclusion Request Form/select_Please SelectAfghanista_1'),
-	'Bangladesh', true)
+	'Bangladesh', true)*/
 
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_4/Page_New Exclusion Request Form/input_Current Supplier (if not'), 

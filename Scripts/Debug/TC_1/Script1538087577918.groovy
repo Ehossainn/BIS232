@@ -12,20 +12,23 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-/*
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ita232webapp.azurewebsites.net/')
-*/
+
 WebUI.click(findTestObject('Object Repository/Debug/Step_1/Page_Home page/a_Create New Exclusion Request'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/select_Steel'), 
-    'Aluminum', true)
+    findTestData('BIS_Test_Data_ER').getValue('Product', 1), true)
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/select_SlabSowBilletFlatPlateS'), 
-//    'Sow', true)
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/select_SlabSowBilletFlatPlateS'), 
+    findTestData('BIS_Test_Data_ER').getValue('Class', 1), true)
+
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Identify the class of Al'), 
-    '123456')
+    findTestData('BIS_Test_Data_ER').getValue(1, 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Full Organization Legal'), 
     'test')
