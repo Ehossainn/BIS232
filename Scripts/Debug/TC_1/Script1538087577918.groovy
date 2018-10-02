@@ -34,10 +34,10 @@ WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion 
     findTestData('BIS_Test_Data_ER').getValue(1, 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_Street Address_BIS232Req'), 
-    'test')
+    findTestData('BIS_Test_Data_ER').getValue(1, 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_City_BIS232Request.JSOND'), 
-    'test')
+    findTestData('BIS_Test_Data_ER').getValue(1, 1))
 
 WebUI.setText(findTestObject('Object Repository/Debug/Step_1/Page_New Exclusion Request Form/input_State_BIS232Request.JSON'), 
     'test')
